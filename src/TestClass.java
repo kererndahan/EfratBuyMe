@@ -181,6 +181,6 @@ public class TestClass {
         SupportingMethods.reportAndTakeScreenshot(driver, test, "Test completed. Final screen.", "FinalScreen");
         test.log(Status.INFO, "Link test video:"+"<a href='file:///"+ConstantsClass.PATHWAY_TO_AUXILIARY_FILES+"/TestVideo.mp4'>linky</a>");
         driver.quit();
-        extent.flush();
+        extent.flush(); //some remark
     }
 }
